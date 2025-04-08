@@ -10,4 +10,4 @@ class ToDoModel(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     title: Mapped[str]
     description: Mapped[str]
-    status: Mapped[bool]a
+    status: Mapped[bool]
